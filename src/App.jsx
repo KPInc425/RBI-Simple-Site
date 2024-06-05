@@ -12,10 +12,8 @@ function App() {
     <MainLayout>
       <Hero />
       <WhyUs />
-      <div className='container mx-auto grid lg:grid-cols-2'>
-        <Projects />
-        <Services />
-      </div>
+      <Services />
+      <Projects />
       <AboutUs />
       <Contact />
     </MainLayout>

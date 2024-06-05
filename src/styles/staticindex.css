@@ -2628,6 +2628,10 @@ html {
   grid-column: span 8 / span 8;
 }
 
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -2673,6 +2677,10 @@ html {
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-12 {
@@ -2804,6 +2812,10 @@ html {
   padding-bottom: 1rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2858,6 +2870,10 @@ html {
   font-weight: 600;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .text-neutral-content {
   --tw-text-opacity: 1;
   color: var(--fallback-nc,oklch(var(--nc)/var(--tw-text-opacity)));
@@ -2882,12 +2898,20 @@ html {
     grid-column: span 1 / span 1;
   }
 
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .lg\:ml-4 {
     margin-left: 1rem;
   }
 
   .lg\:mb-16 {
     margin-bottom: 4rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:grid {
@@ -2910,6 +2934,14 @@ html {
     grid-template-columns: repeat(10, minmax(0, 1fr));
   }
 
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
+  }
+
   .lg\:gap-0 {
     gap: 0px;
   }
@@ -2924,6 +2956,10 @@ html {
 
   .lg\:p-8 {
     padding: 2rem;
+  }
+
+  .lg\:text-center {
+    text-align: center;
   }
 
   .lg\:text-start {
@@ -2963,5 +2999,10 @@ html {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
