@@ -41,7 +41,7 @@ const projectData = [
     logo: <RBIIcon />,
     name: "AI Driven Recommendation System",
     description:
-      "Our AI-driven recommendation system accepts any topic, builds a profile for comparing items of that topic, and evaluates three of the user's favorite instances of the topic. It then suggests other recommendations based on the user's preferences, providing an overview of what the user is most likely enjoying about their original 3.",
+      "We delivered an AI-driven recommendation system accepts any topic, builds a profile for comparing items of that topic, and evaluates three of the user's favorite instances of the topic. It then suggests other recommendations based on the user's preferences, providing an overview of what the user is most likely enjoying about their original 3.",
       tagLine: "User Generated Content, dynamic item comparison profiling, multi stage item profiling, suggestion engine",
       tagLineDescription: "Technologies Involved: Blazor Wasm rich client browser interaction, leveraging OpenAI Gpt3.5turbo and StableDiffusion on a private host",
     link: "",
