@@ -2,8 +2,7 @@
 const Hero = () => {
   return (
     <div
-      className="hero min-h-screen bg-[url(./BG2.jpg)]"
-
+      className="hero min-h-screen bg-[url(BG2.jpg)]"
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
