@@ -1,8 +1,12 @@
+import ThemeController from "../../shared/ThemeController";
 import RBIFullIcon from "../../shared/icons/RBIFullIcon";
 
-const Header = () => {
+const Header = ({theme, handleThemeChange}) => {
   return (
     <header className="py-4">
+      <div className="absolute top-1 right-16 xl:right-4 xl:top-5 h-full">
+        <ThemeController theme={theme} handleThemeChange={handleThemeChange} />
+      </div>
       <div className="lg:h-16 lg:w-68 text-primary p-4 lg:p-0">
         <RBIFullIcon />
       </div>
