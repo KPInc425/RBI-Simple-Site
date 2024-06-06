@@ -5,7 +5,7 @@ import servicesData from "../data/servicesData";
 const Services = () => {
   return (
     <>
-      <div className="flex flex-col gap-4 mb-8 lg:mb-16 text-center container mx-auto">
+      <div className="flex flex-col gap-4 p-4 xl:p-12 text-center container mx-auto">
       <GradientTitle title="Core Services" />
         {servicesData.map((service) => {
           return (

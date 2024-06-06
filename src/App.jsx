@@ -13,11 +13,11 @@ function App() {
     <MainLayout>
       <Hero />
       <WhyUs />
-      <SectionBanner content="We can build your dream product" />
+      <SectionBanner title="We can build your dream product" />
       <Services />
-      <SectionBanner content="Rapid Prototyping, Project Starts, Full Product Delivery, Clever Pricing" />
+      <SectionBanner title="Rapid Prototyping, Project Starts, Full Product Delivery, Clever Pricing" />
       <Projects />
-      <SectionBanner content="It is about more than just software" />      
+      <SectionBanner title="It is about more than just software" />      
       <AboutUs />
       <Contact />
     </MainLayout>

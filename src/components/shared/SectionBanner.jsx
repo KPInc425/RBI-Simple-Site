@@ -1,21 +1,9 @@
-import bgImage from "../../assets/BG2.jpg";
-
-const SectionBanner = ({content=""}) => {
+const SectionBanner = ({ title = "" }) => {
   return (
-    <div
-      className="hero min-h-screen"
-      style={{
-        backgroundImage:
-          `url(${bgImage})`,
-      }}
-    >
-      <div className="hero-overlay bg-opacity-90"></div>
+    <div className={"hero h-40 bg-[url(./BG2.jpg)] bg-top"}>
+      <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
-          <p className="mb-5">
-            {content}
-          </p>          
-        </div>
+        <p className="text-xl xl:text-5xl font-bold text-balance">{title}</p>
       </div>
     </div>
   );
