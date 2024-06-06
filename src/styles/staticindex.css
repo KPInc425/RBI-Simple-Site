@@ -4265,32 +4265,8 @@ html {
   top: 0.25rem;
 }
 
-.top-24 {
-  top: 6rem;
-}
-
 .top-28 {
   top: 7rem;
-}
-
-.top-2 {
-  top: 0.5rem;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
-.top-8 {
-  top: 2rem;
-}
-
-.top-16 {
-  top: 4rem;
-}
-
-.right-24 {
-  right: 6rem;
 }
 
 .z-\[1\] {
@@ -4324,14 +4300,6 @@ html {
   margin-bottom: 1.25rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
 .mb-72 {
   margin-bottom: 18rem;
 }
@@ -4360,28 +4328,20 @@ html {
   height: 3.5rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
-.h-36 {
-  height: 9rem;
+.h-2 {
+  height: 0.5rem;
 }
 
 .h-40 {
   height: 10rem;
 }
 
-.h-2 {
-  height: 0.5rem;
-}
-
 .h-8 {
   height: 2rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .max-h-48 {
@@ -4396,20 +4356,12 @@ html {
   width: 3.5rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-\[200px\] {
-  width: 200px;
-}
-
-.w-4\/5 {
-  width: 80%;
-}
-
 .w-2 {
   width: 0.5rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .w-fit {
@@ -4417,8 +4369,8 @@ html {
   width: fit-content;
 }
 
-.w-8 {
-  width: 2rem;
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[100vw\] {
@@ -4427,10 +4379,6 @@ html {
 
 .max-w-full {
   max-width: 100%;
-}
-
-.max-w-md {
-  max-width: 28rem;
 }
 
 .max-w-lg {
@@ -4465,10 +4413,6 @@ html {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
 .justify-around {
   justify-content: space-around;
 }
@@ -4485,24 +4429,16 @@ html {
   gap: 1.25rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-12 {
-  gap: 3rem;
-}
-
-.gap-20 {
-  gap: 5rem;
-}
-
 .overflow-y-auto {
   overflow-y: auto;
 }
 
 .text-balance {
   text-wrap: balance;
+}
+
+.rounded-box {
+  border-radius: var(--rounded-box, 1rem);
 }
 
 .rounded-lg {
@@ -4513,21 +4449,8 @@ html {
   border-radius: 0.125rem;
 }
 
-.rounded-box {
-  border-radius: var(--rounded-box, 1rem);
-}
-
 .border {
   border-width: 1px;
-}
-
-.border-2 {
-  border-width: 2px;
-}
-
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: var(--fallback-p,oklch(var(--p)/var(--tw-bg-opacity)));
 }
 
 .bg-base-300 {
@@ -4535,28 +4458,21 @@ html {
   background-color: var(--fallback-b3,oklch(var(--b3)/var(--tw-bg-opacity)));
 }
 
-.bg-opacity-90 {
-  --tw-bg-opacity: 0.9;
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-p,oklch(var(--p)/var(--tw-bg-opacity)));
 }
 
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
 }
 
-.bg-gradient-to-t {
-  background-image: linear-gradient(to top, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\$\{bgImage\}\)\] {
-  background-image: url(${bgImage});
-}
-
-.bg-\[url\(\.\/BG2\.jpg\)\] {
-  background-image: url(./BG2.jpg);
-}
-
 .bg-\[url\(BG2\.jpg\)\] {
   background-image: url(BG2.jpg);
+}
+
+.bg-gradient-to-t {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
 .from-base-content\/20 {
@@ -4578,10 +4494,6 @@ html {
           background-clip: text;
 }
 
-.bg-center {
-  background-position: center;
-}
-
 .bg-top {
   background-position: top;
 }
@@ -4598,20 +4510,12 @@ html {
   padding: 2.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
-.p-8 {
-  padding: 2rem;
-}
-
-.p-12 {
-  padding: 3rem;
-}
-
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .py-4 {
@@ -4619,24 +4523,16 @@ html {
   padding-bottom: 1rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
 .pb-12 {
   padding-bottom: 3rem;
 }
 
-.text-center {
-  text-align: center;
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
-.text-start {
-  text-align: start;
+.text-center {
+  text-align: center;
 }
 
 .text-2xl {
@@ -4739,14 +4635,6 @@ html {
 }
 
 @media (min-width: 1024px) {
-  .lg\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
-  .lg\:mb-16 {
-    margin-bottom: 4rem;
-  }
-
   .lg\:block {
     display: block;
   }
@@ -4773,10 +4661,6 @@ html {
 
   .lg\:p-8 {
     padding: 2rem;
-  }
-
-  .lg\:text-center {
-    text-align: center;
   }
 
   .lg\:text-start {
@@ -4825,24 +4709,8 @@ html {
 }
 
 @media (min-width: 1280px) {
-  .xl\:right-48 {
-    right: 12rem;
-  }
-
-  .xl\:top-3 {
-    top: 0.75rem;
-  }
-
   .xl\:right-4 {
     right: 1rem;
-  }
-
-  .xl\:top-4 {
-    top: 1rem;
-  }
-
-  .xl\:top-6 {
-    top: 1.5rem;
   }
 
   .xl\:top-5 {
@@ -4851,10 +4719,6 @@ html {
 
   .xl\:block {
     display: block;
-  }
-
-  .xl\:w-1\/2 {
-    width: 50%;
   }
 
   .xl\:flex-row {
@@ -4876,10 +4740,5 @@ html {
   .xl\:text-5xl {
     font-size: 3rem;
     line-height: 1.25;
-  }
-
-  .xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
