@@ -1,8 +1,13 @@
+import bgImage from "../assets/BG2.jpg";
 
 const Hero = () => {
   return (
     <div
-      className="hero min-h-screen bg-[url(BG2.jpg)]"
+      className="hero min-h-screen"
+      style={{
+        backgroundImage:
+          `url(${bgImage})`,
+      }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
