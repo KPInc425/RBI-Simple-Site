@@ -1,5 +1,6 @@
 import MainLayout from './components/layouts/MainLayout'
 import Hero from './components/Hero'
+import SectionBanner from './components/shared/SectionBanner'
 import Projects from './components/Projects'
 import Services from './components/Services'
 import WhyUs from './components/WhyUs'
@@ -12,8 +13,11 @@ function App() {
     <MainLayout>
       <Hero />
       <WhyUs />
+      <SectionBanner content="We can build your dream product" />
       <Services />
+      <SectionBanner content="Rapid Prototyping, Project Starts, Full Product Delivery, Clever Pricing" />
       <Projects />
+      <SectionBanner content="It is about more than just software" />      
       <AboutUs />
       <Contact />
     </MainLayout>

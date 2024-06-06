@@ -2,7 +2,7 @@ import GradientTitle from "../components/shared/GradientTitle";
 
 const AboutUs = () => {
   return (
-    <div className="container mx-auto p-4 lg:p-12">
+    <div className="container text-center mx-auto p-4 lg:p-12">
       <GradientTitle title="About Us" />
       <p className="text-lg my-8">
         RobotBuildersInc is more than just a software development company; we're

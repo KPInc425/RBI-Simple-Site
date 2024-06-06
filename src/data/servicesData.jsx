@@ -10,29 +10,36 @@ const servicesData = [
     logo: <FlaskIcon />,
   },
   {
-    name: "Blazor Development",
+    name: ".NET C# Development",
     subTitle: "Full-Stack .NET Applications",
     image: "./Feature1.jpg",
-    description:
-      "Our .NET Blazor development services empower us to craft dynamic web applications with the robustness of C#. Leveraging the Blazor framework, we deliver full-stack solutions that excel in performance and scalability. Whether you require a web app from scratch or seek to enhance an existing one, our expertise ensures your application meets and exceeds the highest standards.",
+    description: `
+    Blazor, Blazor WebAssembly (WASM), and .NET MAUI integrate seamlessly with your .NET C# ecosystem, supporting web, installed, or mobile deployments. Our Blazor services leverage C# to build dynamic, scalable web applications.
+
+    Blazor WebAssembly delivers interactive web apps with near-native performance, ensuring seamless user experiences. 
+
+    With .NET MAUI, we create cross-platform applications for consistent user experiences on Windows, Mac, Android, and iOS.
+
+    Our custom development platform offers strong security, lazy-loading, and multitenant support from the first week.
+      `,
     logo: <FlaskIcon />,
   },
-  {
-    name: "Blazor WebAssembly (WASM)",
-    subTitle: "Native-Like Web Experiences",
-    image: "./Feature1.jpg",
-    description:
-      "With Blazor WebAssembly, we create wildly interactive web applications that redefine user experiences. By harnessing the power of WebAssembly, we deliver near-native performance, guaranteeing a seamless and engaging application for your users. Our in-shop custom development platform provides projects industry strength security, secure application lazy-loading, and multitenant support by the end of the first week.",
-    logo: <FlaskIcon />,
-  },
-  {
-    name: ".NET MAUI Development",
-    subTitle: "One Codebase, Every Platform",
-    image: "./Feature1.jpg",
-    description:
-      ".NET MAUI enables us to develop cross-platform applications that offer a consistent user experience across various devices such as Windows, Mac, Android, and iOS/Apple.",
-    logo: <FlaskIcon />,
-  },
+  // {
+  //   name: "Blazor WebAssembly (WASM)",
+  //   subTitle: "Native-Like Web Experiences",
+  //   image: "./Feature1.jpg",
+  //   description:
+  //     "With Blazor WebAssembly, we create wildly interactive web applications that redefine user experiences. By harnessing the power of WebAssembly, we deliver near-native performance, guaranteeing a seamless and engaging application for your users. Our in-shop custom development platform provides projects industry strength security, secure application lazy-loading, and multitenant support by the end of the first week.",
+  //   logo: <FlaskIcon />,
+  // },
+  // {
+  //   name: ".NET MAUI Development",
+  //   subTitle: "One Codebase, Every Platform",
+  //   image: "./Feature1.jpg",
+  //   description:
+  //     ".NET MAUI enables us to develop cross-platform applications that offer a consistent user experience across various devices such as Windows, Mac, Android, and iOS/Apple.",
+  //   logo: <FlaskIcon />,
+  // },
   {
     name: "Microsoft Project Rehab & Rescue",
     subTitle: "Turning Challenges into Opportunities",

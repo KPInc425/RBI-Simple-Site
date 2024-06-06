@@ -6,10 +6,7 @@ const Services = () => {
   return (
     <>
       <div className="flex flex-col gap-4 mb-8 lg:mb-16 text-center container mx-auto">
-        <div className="flex flex-col gap-4 justify-center items-center p-4 lg:p-12 max-w-[100vw]">
-          <SectionBadge title="Services" />
-          <GradientTitle title="We can build your dream product into a cross-platform juggernaut" />
-        </div>
+      <GradientTitle title="Core Services" />
         {servicesData.map((service) => {
           return (
               <div className="p-4 lg:p-8 text-sm lg:text-lg max-w-[100vw]" key={service.title}>
