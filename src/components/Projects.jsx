@@ -17,9 +17,9 @@ const Projects = () => {
                     <div className="h-14 w-14">
                       {project.logo}
                     </div>
-                    <span className="font-bold lg:text-start text-xl lg:text-3xl text-balance">{project.name}</span>
+                    <span className="font-bold lg:text-start text-xl lg:text-3xl text-balance pb-4">{project.name}</span>
                   </div>
-                  <p className="text-sm pb-4">{project.tagLine}</p>
+                  {/* <p className="text-sm pb-4">{project.tagLine}</p> */}
                   <p className="text-balance pb-4">{project.description}</p>
                   <p className="italic text-xs">{project.tagLineDescription}</p>
                   
