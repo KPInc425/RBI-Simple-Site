@@ -4,7 +4,7 @@ import Header from "./shared/Header"
 import LightDarkToggle from "../shared/LightDarkToggle";
 
 const MainLayout = ({children}) => {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "default");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "business");
 
   const handleThemeChange = (e) => {
     console.log(e);
@@ -25,9 +25,9 @@ const MainLayout = ({children}) => {
   }, [theme]);
   return (
     <>
-      <div className='absolute right-4 top-28 z-[1]'>
+      {/* <div className='absolute right-4 top-28 z-[1]'>
         <LightDarkToggle theme={theme} handleThemeChange={handleThemeChange} />
-      </div>
+      </div> */}
       <Header theme={theme} handleThemeChange={handleThemeChange} />
       {children}
       <Footer />
