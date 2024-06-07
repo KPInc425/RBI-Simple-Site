@@ -8,7 +8,7 @@ const Footer = () => {
           <RBIIcon />
         </div>
         <p className="font-bold">
-          Robot Builders Inc. <br />Providing reliable tech since 2006
+          Robot Builders Inc. <br />Providing reliable custom software since 2006
         </p> 
         <p>Copyright © 2024 - All right reserved</p>
       </aside> 
