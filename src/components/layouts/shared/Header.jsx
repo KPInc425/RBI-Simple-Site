@@ -4,7 +4,7 @@ import RBIFullIcon from "../../shared/icons/RBIFullIcon";
 
 const Header = ({theme, handleThemeChange}) => {
   return (
-    <header className="py-4 flex xl:grid xl:grid-cols-3">
+    <header className="py-4 flex justify-between xl:grid xl:grid-cols-3">
       {/* <div className="absolute top-36 right-0 xl:right-4 xl:top-5 h-full"> */}
       {/* </div> */}
       <div className="lg:h-16 lg:w-68 text-primary px-2 xl:col-start-2">
