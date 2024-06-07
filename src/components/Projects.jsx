@@ -21,7 +21,7 @@ const Projects = () => {
                   </div>
                   {/* <p className="text-sm pb-4">{project.tagLine}</p> */}
                   <p className="text-balance pb-4">{project.description}</p>
-                  <p className="italic text-xs">{project.tagLineDescription}</p>
+                  <p className="italic text-xs">{project.technologyUsed}</p>
                   
                   <a href={project.link} target="_blank" rel="noreferrer" className="text-balance">{project.link}</a>
                 </div>
