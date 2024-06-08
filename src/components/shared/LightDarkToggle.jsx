@@ -22,10 +22,10 @@ const LightDarkToggle = ({theme, handleThemeChange}) => {
   }, [theme]);
 
   return (
-    <label className={`swap swap-rotate ${theme == "light" && "swap-active"}`} onClick={handleToggle}>
+    <label className={`swap swap-rotate px-2 ${theme == "light" && "swap-active"}`} onClick={handleToggle}>
       {(theme == "light" || theme == "dark" || theme == "default") && (<>
         <svg
-          className="swap-off fill-neutral-content w-8 h-8"
+          className="swap-off fill-neutral-content w-6 h-6 xl:w-8 xl:h-8"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
         >
@@ -33,7 +33,7 @@ const LightDarkToggle = ({theme, handleThemeChange}) => {
         </svg>
 
         <svg
-          className="swap-on fill-neutral-content w-8 h-8"
+          className="swap-on fill-neutral-content w-6 h-6 xl:w-8 xl:h-8"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
         >

@@ -4546,6 +4546,14 @@ html {
   height: 100%;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
 .max-h-48 {
   max-height: 12rem;
 }
@@ -4577,6 +4585,14 @@ html {
 
 .w-3\/4 {
   width: 75%;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .max-w-\[100vw\] {
@@ -4994,6 +5010,14 @@ html {
 
   .xl\:h-96 {
     height: 24rem;
+  }
+
+  .xl\:h-8 {
+    height: 2rem;
+  }
+
+  .xl\:w-8 {
+    width: 2rem;
   }
 
   .xl\:grid-cols-2 {
