@@ -23,8 +23,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col xl:flex-row gap-4 xl:gap-20 justify-around container mx-auto text-xl text-center xl:text-start p-4 pb-12 lg:p-12">
-      <div className="toast toast-top toast-center">
+    <div className="flex flex-col xl:flex-row gap-4 xl:gap-20 justify-around container mx-auto text-base xl:text-xl text-center xl:text-start p-4 pb-12 lg:p-12">
+      <div className="toast toast-top toast-center whitespace-normal sm:whitespace-nowrap w-full md:w-fit max-w-[90%] -translate-x-[53%]">
         {showToasterSuccess && (
           <div className="alert alert-success">
             <span className="font-semibold text-success-content">
