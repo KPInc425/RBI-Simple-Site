@@ -55,7 +55,7 @@ const Contact = () => {
             Get in touch
           </button>
         ) : (
-          <div className="flex justify-center xl:justify-self-end items-center order-1 mb-4 xl:mb-0 w-3/4 px-4">
+          <div className="flex justify-center xl:justify-self-end items-center order-1 mb-4 xl:mb-0 xl:w-3/4 px-4">
             <ContactForm
               showForm={showForm}
               setShowForm={setShowForm}
