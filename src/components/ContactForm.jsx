@@ -102,12 +102,12 @@ const ContactForm = ({
           className="textarea textarea-primary w-full"
           required
         />
-        <HCaptcha
-          sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
-          reCaptchaCompat={false}
-          onVerify={onHCaptchaChange}
-        />
         <div className="flex gap-4 items-center justify-end w-full">
+          <HCaptcha
+            sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
+            reCaptchaCompat={false}
+            onVerify={onHCaptchaChange}
+          />
           <button className="btn btn-primary" type="submit">
             Send Message
           </button>
